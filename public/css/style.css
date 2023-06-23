@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #988f8f;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #d1c3c3;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  text-align:center;
+  }
+
+h1 {
+  font-size: 3rem;
+  padding: 3rem;
+  color: #0d8d11;
+}
+ul {
+  list-style-type: none;
+}
+
+input {
+  min-width: 600px;
+  height: 2rem;
+  border-radius: 10px 0 10px 0;
+  border: solid 2px rgb(0, 255, 115);
+  padding-left: 1rem;
+  color: rgb(38, 33, 13);
+  font-size: 1rem;
+  outline: none;
+}
+
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  }
+
+  button:hover {
+    background-color: #c0392b;
+  }
+  button::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    
+  }
+
+  button::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+   }
+
+  button:hover::before,
+  button:hover::after{
+  background-color: #fff;
+}
+
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-description {
+  flex: 1;
+  text-align: center;
+}
+
+.delete-form {
+  margin-left: 5px;
+  padding: 5px;
+}
+
+
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 576px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+  max-width: 995px;
+}
+}
+  
