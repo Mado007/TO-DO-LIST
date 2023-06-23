@@ -53,7 +53,7 @@ The TO DO List is a web application that allows you to keep track of your tasks 
 
 5. Start the application:
 
-  npm start
+   npm start
 
 6. Access the application in your web browser at
    
@@ -62,7 +62,6 @@ The TO DO List is a web application that allows you to keep track of your tasks 
 ## Usage
 - Enter a task in the input field and click "Add" to add it to your to-do list.
 - Click the "Delete" button next to a task to remove it from your list.
-- Click the checkbox next to a task to mark it as completed.
 
 ## 📝 License
 
